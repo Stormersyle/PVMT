@@ -30,11 +30,6 @@
   opacity: 0.7;
 }
 
-#logout-icon {
-  height: 5vh;
-  max-height: 6vw;
-}
-
 .nav-link {
   display: flex;
   align-items: center;
@@ -66,18 +61,11 @@
   margin: 0 1vw;
 }
 
-#tradeswipe-nav {
-  margin: 0 1vw 0 0.5vw;
-}
-
 @media only screen and (max-width: 1000px) {
   .nav-link {
     margin: 0 1vw;
   }
   .nav-button {
     margin: 0 1.5vw;
-  }
-  #tradeswipe-title {
-    display: none !important;
   }
 }

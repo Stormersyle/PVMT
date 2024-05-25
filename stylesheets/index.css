@@ -178,5 +178,10 @@ button:hover {
 }
 
 #pvmt {
-  height: 25vh;
+  max-height: 25vh;
+  max-width: 40vw;
+}
+
+#navbar-container {
+  width: 100%;
 }
