@@ -1,0 +1,83 @@
+/* desktop navbar */
+.navbar {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  height: 9.9vh;
+  width: 100%;
+  /* background-color: rgba(255, 255, 255, 0.213) !important; */
+  background-color: rgba(226, 226, 226, 0.313);
+  margin: 0 0 5vh 0;
+  border-bottom: 0.2vh solid black;
+}
+/* Navbar takes up 20vh total */
+
+#logo {
+  height: 6vh;
+  max-height: 7vw;
+  width: auto;
+  margin: 0 0.5vw 0 0;
+}
+
+.nav-icon {
+  height: 6vh;
+  max-height: 7vw;
+  width: auto;
+}
+
+.nav-icon:hover {
+  opacity: 0.7;
+}
+
+#logout-icon {
+  height: 5vh;
+  max-height: 6vw;
+}
+
+.nav-link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  margin: 0 0.5vw;
+  font-size: 1.1rem;
+  color: black;
+}
+
+.nav-link:hover {
+  opacity: 0.7;
+  color: rgb(212, 86, 86);
+}
+
+.nav-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  margin: 0 1vw;
+}
+
+.nav-button:hover {
+  opacity: 0.7;
+}
+
+.nav-container {
+  margin: 0 1vw;
+}
+
+#tradeswipe-nav {
+  margin: 0 1vw 0 0.5vw;
+}
+
+@media only screen and (max-width: 1000px) {
+  .nav-link {
+    margin: 0 1vw;
+  }
+  .nav-button {
+    margin: 0 1.5vw;
+  }
+  #tradeswipe-title {
+    display: none !important;
+  }
+}
