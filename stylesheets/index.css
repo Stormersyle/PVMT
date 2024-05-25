@@ -185,3 +185,25 @@ button:hover {
 #navbar-container {
   width: 100%;
 }
+
+.sponsor-logo {
+  object-fit: cover;
+}
+
+.sponsor-logo-container {
+  width: 30vw;
+  margin: 5px;
+  border: 2px solid black;
+}
+
+.sponsor-logo-container > a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+}
+
+#daily-challenge-container {
+  border: 2px solid white;
+}

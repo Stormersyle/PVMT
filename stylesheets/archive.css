@@ -1,0 +1,24 @@
+.archive-table {
+  border: solid black 1px;
+}
+
+.archive-table tr {
+  display: flex;
+  flex-direction: row;
+}
+
+.archive-table td,
+th {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 12vw;
+  padding: 5px;
+  border: solid black 1px;
+  height: 50px;
+}
+
+.tr-22 td {
+  height: 100px;
+}
