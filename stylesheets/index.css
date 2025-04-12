@@ -82,6 +82,10 @@ hr {
   color: black;
 }
 
+ul {
+  list-style-position: inside;
+}
+
 img {
   display: block;
   margin: 0;
@@ -107,6 +111,10 @@ textarea {
   border-radius: 3px;
   font-size: 0.89rem;
   width: 100%;
+}
+
+#pvmt {
+  margin-bottom: 25px;
 }
 
 .checkbox {
@@ -216,6 +224,10 @@ button:hover {
 
 #daily-challenge-container {
   border: 2px solid white;
+}
+
+.archive-table {
+  margin: 20px;
 }
 
 @media (max-width: 1200px) {
