@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css?family=Open+Sans:normal");
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap");
 
 * {
   margin: 0;
@@ -182,6 +182,13 @@ button:hover {
   width: 100%;
 }
 
+.tier {
+  font-size: 42px;
+  font-weight: 700;
+  text-decoration: underline;
+  text-decoration-thickness: 3px;
+}
+
 .sponsor-logo {
   width: 100%;
   height: 100%;
@@ -193,11 +200,10 @@ button:hover {
 
 .sponsor-logo-container {
   max-width: 400px;
-  max-height: 200px;
-  height: 200px;
+  max-height: 150px;
+  height: 150px;
 
-  margin: 5px;
-  border: 2px solid darkgray;
+  margin: 5px 15px 5px 15px;
 }
 
 .sponsor-logo-container > a {
@@ -213,10 +219,6 @@ button:hover {
 }
 
 @media (max-width: 1200px) {
-  .sponsor-logo-container {
-    max-height: 150px;
-  }
-
   .sponsor-logo {
     max-width: 512px;
     max-height: 256px;
