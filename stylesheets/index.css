@@ -192,12 +192,12 @@ button:hover {
 }
 
 .sponsor-logo-container {
-  max-width: 512px;
-  max-height: 256px;
-  height: 256px;
+  max-width: 400px;
+  max-height: 200px;
+  height: 200px;
 
   margin: 5px;
-  border: 2px solid black;
+  border: 2px solid darkgray;
 }
 
 .sponsor-logo-container > a {
@@ -214,11 +214,17 @@ button:hover {
 
 @media (max-width: 1200px) {
   .sponsor-logo-container {
-    max-height: 20vw;
+    max-height: 150px;
   }
 
   .sponsor-logo {
     max-width: 512px;
     max-height: 256px;
+  }
+}
+
+@media (max-width: 350px) {
+  .sponsor-logo-container {
+    width: 90vw;
   }
 }
