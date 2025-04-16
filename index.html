@@ -10,6 +10,7 @@
     <link rel="stylesheet" href="./stylesheets/index.css" />
     <link rel="stylesheet" href="./stylesheets/utilities.css" />
     <link rel="stylesheet" href="./stylesheets/navbar.css" />
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <title>PVMT</title>
   </head>
   <body>
@@ -17,7 +18,7 @@
     <div id="navbar-container">
       <div class="navbar">
         <div
-          class="nav-container u-flex u-justify-start u-align-center u-height-fill"
+          id="logo-container" class="nav-container u-justify-end u-flex u-align-center u-height-fill"
         >
           <a href="./index.html">
             <span class="u-flex u-align-center nav-link"
@@ -31,7 +32,7 @@
         </div>
 
         <div
-          class="nav-container u-flex u-justify-end u-align-center u-height-fill"
+          id="nav-links" class="nav-container u-justify-end u-align-center u-height-fill"
         >
           <a href="./index.html" class="nav-link"> Home </a>
           <a href="./about.html" class="nav-link"> About </a>
@@ -39,6 +40,23 @@
           <a href="./people.html" class="nav-link"> People </a>
           <a href="./archive.html" class="nav-link"> Archive </a>
           <a href="./sponsors.html" class="nav-link"> Sponsors </a>
+        </div>
+        <div id="hamburger-menu-container" class="u-justify-end u-align-center u-height-fill">
+          <div id="menuToggle" class="u-height-fill">
+            <input type="checkbox" id="menuCheckbox" />
+            <span></span>
+            <span></span>
+            <span></span>
+
+            <ul id="menu">
+              <li><a class="hamburgerItem" href="./index.html">Home</a></li>
+              <li><a class="hamburgerItem" href="./about.html">About</a></li>
+              <li><a class="hamburgerItem" href="./register.html">Register</a></li>
+              <li><a class="hamburgerItem" href="./people.html">People</a></li>
+              <li><a class="hamburgerItem" href="./archive.html">Archive</a></li>
+              <li><a class="hamburgerItem" href="./sponsors.html">Sponsors</a></li>
+            </ul>
+          </div>
         </div>
       </div>
     </div>
